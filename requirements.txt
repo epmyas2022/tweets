@@ -1,0 +1,8 @@
+pandas==1.4.4
+tensorflow==2.15.0
+tensorflow-text==2.15.0
+scikit-learn
+tensorflow_hub
+uvicorn
+fastapi
+gdown

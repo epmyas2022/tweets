@@ -1,0 +1,18 @@
+version: '3'
+services:
+  backend:
+    image: tweets-backend
+    container_name: tweets-backend
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    ports:
+      - "8926:8000"
+    volumes:
+      - .:/app
+    networks:
+      - tweets-backend
+
+networks:
+  tweets-backend:
+    driver: bridge
