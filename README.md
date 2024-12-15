@@ -1,6 +1,6 @@
 # API With Model Emotion Detection
 
-Este proyecto es la API de un modelo de detección de emociones en imágenes. El modelo fue entrenado con 25000 textos
+Este proyecto es la API de un modelo de detección de emociones. El modelo fue entrenado con 25000 textos
 clasisifocados como positivos, negativos o netutrales. El modelo fue entrenado con la librería de machine learning de python tensorflow.
 
 > [!NOTE]
